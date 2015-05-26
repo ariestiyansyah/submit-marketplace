@@ -94,7 +94,72 @@ Demoing: The Good Parts
 3. Sign in to your developer account
 
 	> If you aren't registered you'll be asked to register.
+	>
 	> If you haven't done so already, you'll be asked to agree to the Firefox Marketplace Developer Agreement. 
+	>
 	> In this section you can use Firefox Account to register or sign to Firefox Marketplace Hub
 
-#### Step 2 - 
+#### Step 2 - Step 2 - Load your app
+On the Submit an app page:
+1. Select whether the app is free or paid.
+2. Select the platforms the app will be available on.
+3. Select whether the app is hosted or packaged then:
+
+	> For a hosted app, provide the link to its manifest file.
+	>
+	> For a packaged app, upload the package.zip file, and once it has been validated, identify the minimum API requirements.
+4. Click Continue.
+
+#### Step 3 - Enter your app's details
+On the Edit App Details page:
+
+1. Modify the app URL if you wish.
+2. Modify the description (provided in the manifest) if you wish.
+3. Select one or two categories.
+4. Provide a Privacy Policy.
+5. Defined a home page and support website if you have them.
+6. Provide a support email address.
+7. Indicate whether the app requires Flash support.
+8. Add at least one screenshot or video.
+9. Provide additional comments for the app reviewer (such as sign in details if the app requires them) - note you'll only be able to modify these notes by submitting a new version of the app.
+10. Select whether the app will be published as soon as approved - note you'll only be able to modify this setting by submitting a new version of the app.
+11. Click Continue.
+
+#### Step 4 - See details of the next steps
+On the Next Steps page click Continue.
+
+#### Step 5 - Obtain a content rating
+On the Content Ratings page:
+
+* to obtain a new rating click Create an IARC Ratings Certificate and on the IARC Web site, complete the ratings questionnaire.
+* to enter a rating you've already obtained provide its Submission ID and Security Code.
+
+#### Step 6 - Update availability and payment details
+Step 6a - If the app is free (and doesn't include in-app purchases):
+
+* On the left hand menu, click Compatibility. Change the countries the app will be available in if you wish.
+
+Step 6b - If the app is paid (or free, but includes in app payments):
+
+* On the left hand menu, click Compatibility & Payments
+	- Setup your payment provider accounts, such as Bango and Boku.
+	- Set the price, identify whether the app includes in-app products and select the countries the app will be available in.
+	- If the app is being offered as a premium upgrade to a free app, identify the free app.
+
+Step 6c - If the app includes in-app products:
+
+* On the left hand menu click In-App Payments and obtain your API key and secret. (Note that you'll have to submit an update to your app once the API key and secret have been added to it, for more details see In-app payments.)
+* If you're using fxPay, on the left hand menu click In-App Products and define each of your in-app products.
+
+#### Step 7 - Setup team member (optional)
+
+* On the left hand menu, click Team Members and add any additional team member if you wish.
+
+#### Step 8 - View the listing (optional)
+* On the left hand menu, click View Listing and view your app's Marketplace listing if you wish.
+
+#### Step 9 - Edit other localization listings (optional)
+
+* On the left hand menu click Edit Listing and modify the app URL, description, and categories for any of the app's localizations or add details for any other locale supported by Firefox Marketplace.
+
+Application is now in the review queue. You can monitor its progress through the review process by clicking Status and Version on the left hand menu. Remember that if your app makes use of in-app payments you will need to code in the API Key and submit an update before the app can be published.

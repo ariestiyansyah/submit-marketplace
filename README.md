@@ -92,10 +92,8 @@ Demoing: The Good Parts
    Hub](https://marketplace.firefox.com/developers/)
 2. Click `Submit your app to the Marketplace`
 3. Sign in to your developer account
-> If you aren't registered you'll be asked to register.
-> If you haven't done so already, you'll be asked to agree to the Firefox
-> Marketplace Developer Agreement. 
-> In this section you can use Firefox Account to register or sign to Firefox
-> Marketplace Hub
+	> If you aren't registered you'll be asked to register.
+	> If you haven't done so already, you'll be asked to agree to the Firefox Marketplace Developer Agreement. 
+	> In this section you can use Firefox Account to register or sign to Firefox Marketplace Hub
 
 #### Step 2 - 

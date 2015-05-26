@@ -1,5 +1,6 @@
 Submitting Application to Marketplace Content Kit
 =================================================
+_Current as of May 2015_
 
 Introduction
 ------------
@@ -31,7 +32,7 @@ Firefox Marketplace:
 * Landing: https://marketplace.firefox.com/developers/submit/
 * Docs:
   https://developer.mozilla.org/en-US/Marketplace/Publishing/Submit/Overview
-
+* Video HowTo Submit: www.youtube.com/watch?v=fA4yZwszrX0
 
 Firefox Account: 
 * Landing: https://accounts.firefox.com/
@@ -165,3 +166,6 @@ Step 6c - If the app includes in-app products:
 * On the left hand menu click Edit Listing and modify the app URL, description, and categories for any of the app's localizations or add details for any other locale supported by Firefox Marketplace.
 
 Application is now in the review queue. You can monitor its progress through the review process by clicking Status and Version on the left hand menu. Remember that if your app makes use of in-app payments you will need to code in the API Key and submit an update before the app can be published.
+
+Frequently Asked Questions (FAQs)
+---------------------------------

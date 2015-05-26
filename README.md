@@ -47,4 +47,41 @@ For __any presentation__:
 - [ ] Internet connection for every device in the demo
 - [ ] Complete Open Web Application to submit
 
+Demoing: Things that are Broken
+-------------------------------
 
+### Manifest
+
+Have a quick look at the app manifest (the 'View' link next to the manifest
+url). If the manifest obviously isn't valid JSON/isn't found it won't install
+anyway. The [manifest spec](https://developer.mozilla.org/docs/Apps/Manifest) should be consulted if you aren't sure about syntax.
+Any issues, reject.
+
+Please take a look at [Serving
+manifests](https://developer.mozilla.org/en-US/Apps/Build/Manifest#Serving_manifests) on MDN to served manifest from the [same origin](https://developer.mozilla.org/en-US/Apps/Build/Building_apps_for_Firefox_OS/App_manifest_FAQ#What_is_an_origin.3F)
+
+### AppCache
+
+A common issue on FirefoxOS is 'download halted' during installation - this is
+most often due to a broken appcache, either because it doesn't exist. You can
+check the manifest at [manifest-validator.com](http://manifest-validator.com/)
+
+### Permissions
+
+Take note of any requested permissions in the manifest. There is a Security
+Checklist of available APIs and what they might be used/abused for, as well as
+in-depth [Security guidelines for developers and reviewers](https://developer.mozilla.org/en-US/docs/Web/Apps/Security_guidelines). There are only a few
+APIs are available to hosted/non-privileged apps (alarms, desktop-notification,
+geolocation, fmradio) 
+
+### Icon
+
+* Icons in other sizes, and specified in your app's manifest file, for optimal
+  display in other platforms/contexts :
+** A 60 x 60px icon for display on the device.
+** 32 x 32px, 90 x 90px, 120 x 120px, and 256 x 256px icons for optimal display
+on various other platforms your app can be installed on, such as Windows 7 and
+Android
+
+Demoing: The Good Parts
+-----------------------

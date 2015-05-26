@@ -78,10 +78,8 @@ geolocation, fmradio)
 
 * Icons in other sizes, and specified in your app's manifest file, for optimal
   display in other platforms/contexts :
-** A 60 x 60px icon for display on the device.
-** 32 x 32px, 90 x 90px, 120 x 120px, and 256 x 256px icons for optimal display
-on various other platforms your app can be installed on, such as Windows 7 and
-Android
+	- A 60 x 60px icon for display on the device.
+	- 32 x 32px, 90 x 90px, 120 x 120px, and 256 x 256px icons for optimal display on various other platforms your app can be installed on, such as Windows 7 and Android
 
 Demoing: The Good Parts
 -----------------------

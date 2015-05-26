@@ -88,42 +88,44 @@ Demoing: The Good Parts
 
 #### Step 1 - Sign in to Developer Account
 
-1. Go to the [Firefox Marketplace Developer
+* Go to the [Firefox Marketplace Developer
    Hub](https://marketplace.firefox.com/developers/)
-2. Click `Submit your app to the Marketplace`
-3. Sign in to your developer account
+* Click `Submit your app to the Marketplace`
+* Sign in to your developer account
 
-	> If you aren't registered you'll be asked to register.
-	>
-	> If you haven't done so already, you'll be asked to agree to the Firefox Marketplace Developer Agreement. 
-	>
-	> In this section you can use Firefox Account to register or sign to Firefox Marketplace Hub
+> If you aren't registered you'll be asked to register.
+>
+> If you haven't done so already, you'll be asked to agree to the Firefox Marketplace Developer Agreement. 
+>
+> In this section you can use Firefox Account to register or sign to Firefox Marketplace Hub
 
-#### Step 2 - Step 2 - Load your app
+#### Step 2 - Step 2 - Load Application
 On the Submit an app page:
-1. Select whether the app is free or paid.
-2. Select the platforms the app will be available on.
-3. Select whether the app is hosted or packaged then:
 
-	> For a hosted app, provide the link to its manifest file.
-	>
-	> For a packaged app, upload the package.zip file, and once it has been validated, identify the minimum API requirements.
-4. Click Continue.
+* Select whether the app is free or paid.
+* Select the platforms the app will be available on.
+* Select whether the app is hosted or packaged then:
 
-#### Step 3 - Enter your app's details
+> For a hosted app, provide the link to its manifest file.
+>
+> For a packaged app, upload the package.zip file, and once it has been validated, identify the minimum API requirements.
+
+* Click Continue.
+
+#### Step 3 - Enter application details
 On the Edit App Details page:
 
-1. Modify the app URL if you wish.
-2. Modify the description (provided in the manifest) if you wish.
-3. Select one or two categories.
-4. Provide a Privacy Policy.
-5. Defined a home page and support website if you have them.
-6. Provide a support email address.
-7. Indicate whether the app requires Flash support.
-8. Add at least one screenshot or video.
-9. Provide additional comments for the app reviewer (such as sign in details if the app requires them) - note you'll only be able to modify these notes by submitting a new version of the app.
-10. Select whether the app will be published as soon as approved - note you'll only be able to modify this setting by submitting a new version of the app.
-11. Click Continue.
+* Modify the app URL if you wish.
+* Modify the description (provided in the manifest) if you wish.
+* Select one or two categories.
+* Provide a Privacy Policy.
+* Defined a home page and support website if you have them.
+* Provide a support email address.
+* Indicate whether the app requires Flash support.
+* Add at least one screenshot or video.
+* Provide additional comments for the app reviewer (such as sign in details if the app requires them) - note you'll only be able to modify these notes by submitting a new version of the app.
+* Select whether the app will be published as soon as approved - note you'll only be able to modify this setting by submitting a new version of the app.
+* Click Continue.
 
 #### Step 4 - See details of the next steps
 On the Next Steps page click Continue.
